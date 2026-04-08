@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block admin area from indexing
+Disallow: /_config.js
+Disallow: /app.js
+
+# Sitemap
+Sitemap: https://marassia.netlify.app/sitemap.xml
